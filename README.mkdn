@@ -18,7 +18,7 @@ Then to sync up:
 
 Additionally, you can define the number of parallel download repo should do:
 
-    repo sync -f --force-sync --no-clone-bundle 
+    repo sync -f -jX --force-sync --no-clone-bundle    ( X is the number of parallel download repo should do choose depending on your cpu )
 
  Compilation Of Rom
  ----------------------------------
