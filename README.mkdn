@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/DotOS/manifest/dot-n/DotOS.jpg">
+<center><img src="https://github.com/DotOS/manifest/blob/dot-n/dotwithoutbackground.png?raw=true"></center>
 
 DotOS
 ===========
