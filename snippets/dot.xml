@@ -29,5 +29,8 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="dot" revision="dot-n" />
 
   <!-- Build tools -->
-  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="dot" revision="dot-n" />
+  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="dot"/>
+  <project path="external/skia" name="android_external_skia" remote="dot"/>
+  <project path="art" name="android_art" remote="dot" />
+  <project path="system/core" name="android_system_core" remote="dot" />
 </manifest>
