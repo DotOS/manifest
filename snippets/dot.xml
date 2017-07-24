@@ -27,4 +27,7 @@
   <project path="external/DUtils" name="android_external_DUtils" remote="dot" revision="n7x"/>
   <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="dot" revision="n7x"/>
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="dot" revision="dot-n" />
+
+  <!-- Build tools -->
+  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="dot" revision="dot-n" />
 </manifest>
