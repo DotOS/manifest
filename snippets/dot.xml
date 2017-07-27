@@ -33,4 +33,5 @@
   <project path="external/skia" name="android_external_skia" remote="dot"/>
   <project path="art" name="android_art" remote="dot" />
   <project path="system/core" name="android_system_core" remote="dot" />
+  <project path="build/kati" name="android_build_kati" remote="dot" />
 </manifest>
