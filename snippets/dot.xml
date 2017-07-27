@@ -34,4 +34,8 @@
   <project path="art" name="android_art" remote="dot" />
   <project path="system/core" name="android_system_core" remote="dot" />
   <project path="build/kati" name="android_build_kati" remote="dot" />
+  <project path="build/soong" name="android_build_soong" remote="dot" >
+  	<linkfile src="root.bp" dest="Android.bp" />
+    	<linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
 </manifest>
