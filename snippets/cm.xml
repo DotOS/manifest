@@ -35,16 +35,21 @@
   <project path="hardware/ti/wpan" name="LineageOS/android_hardware_ti_wpan" />
   <project path="packages/apps/Exchange" name="LineageOS/android_packages_apps_Exchange" />
   <project path="packages/apps/FMRadio" name="LineageOS/android_packages_apps_FMRadio" />
+  <project path="packages/apps/LockClock" name="LineageOS/android_packages_apps_LockClock" />
   <project path="packages/apps/Profiles" name="LineageOS/android_packages_apps_Profiles" />
   <project path="packages/apps/Snap" name="LineageOS/android_packages_apps_Snap" />
   <project path="packages/apps/Camera2" name="LineageOS/android_packages_apps_Camera2" />
   <project path="packages/providers/DataUsageProvider" name="LineageOS/android_packages_providers_DataUsageProvider" />
+  <project path="packages/providers/WeatherProvider" name="LineageOS/android_packages_providers_WeatherProvider" />
   <project path="packages/services/CMAudioService" name="LineageOS/android_packages_services_CMAudioService" />
   <project path="packages/services/LiveLockScreenService" name="LineageOS/android_packages_services_LiveLockScreenService" />
   <project path="packages/services/WeatherService" name="LineageOS/android_packages_services_WeatherService" />
   <project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" />
   <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
   <project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/OpenWeatherMapProvider" name="LineageOS/android_packages_apps_OpenWeatherMapProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/WundergroundWeatherProvider" name="LineageOS/android_packages_apps_WundergroundWeatherProvider" />
+  <project path="vendor/cmsdk/samples/weatherproviderservice/YahooWeatherProvider" name="LineageOS/android_packages_apps_YahooWeatherProvider" />
 
   <!-- CodeAurora additions -->
   <project path="external/ant-wireless/ant_native" name="LineageOS/android_external_ant-wireless_ant_native" />
