@@ -24,14 +24,12 @@
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="dot" />
   <project path="packages/apps/DSPlibs" name="android_packages_apps_DSPlibs" remote="dot" />
   <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="dot" />
-  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="dot" />
   <project path="packages/apps/CMParts" name="android_packages_apps_CMParts" remote="dot" />
   <project path="system/sepolicy" name="LineageOMS/android_system_sepolicy" remote="github" />
   <project path="vendor/dot" name="android_vendor_dot" remote="dot" />
   <project path="system/media" name="android_system_media" remote="dot" />
   <project path="external/DUtils" name="android_external_DUtils" remote="dot" revision="n7x"/>
   <project path="packages/apps/DUI" name="android_packages_apps_DUI" remote="dot" revision="n7x"/>
-  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="dot" revision="dot-n" />
 
   <!-- Build tools -->
   <project path="dot_scripts" name="dot_scripts" remote="dot" />
