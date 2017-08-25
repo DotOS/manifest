@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <project path="bionic" name="android_bionic" remote="dot" />
+  <project path="libcore" name="android_libcore" remote="dot" />
   <project path="development" name="android_development" remote="dot" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="dot" />
   <project path="frameworks/av" name="android_frameworks_av" remote="dot" />
