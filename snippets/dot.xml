@@ -20,7 +20,6 @@
   <project path="packages/apps/ExactCalculator" name="LineageOMS/android_packages_apps_ExactCalculator" remote="github" />
   <project path="packages/apps/SoundRecorder" name="packages_apps_SoundRecorder" remote="dot" />
   <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="github" revision="n-rootless" />
-  <project path="packages/apps/DotPapers" name="android_packages_apps_DotPapers" remote="dot" />
   <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="dot" />
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="dot" />
   <project path="packages/apps/DSPlibs" name="android_packages_apps_DSPlibs" remote="dot" />
