@@ -1,9 +1,8 @@
 <p align="center">
-<img src="https://avatars1.githubusercontent.com/u/29705874?v=3&u=6279a81c7e655da30d269d05af6d59ecfd31854c&s=400" width="320px" height="320px" > 
+<img src="https://github.com/DotOS/manifest/blob/dot-n/dotlogo.png" > 
 </p>
 
-DotOS
-===========
+
 
 Getting Started
 ---------------
@@ -33,4 +32,7 @@ From root directory of Project, perform following commands in terminal
    
 	brunch $codename
 
+<p align="center">
+<img src="https://github.com/DotOS/manifest/blob/dot-n/dotlogo.png" > 
+</p>
 
