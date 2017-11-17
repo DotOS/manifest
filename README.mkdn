@@ -36,3 +36,4 @@ From root directory of Project, perform following commands in terminal
 <img src="https://github.com/DotOS/manifest/blob/dot-n/dotlogo.png" > 
 </p>
 
+For maintainership refer [**here**](https://github.com/DotOS/android_vendor_dot/blob/dot-n/README.mkdn) 
