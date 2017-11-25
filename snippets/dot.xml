@@ -54,6 +54,7 @@
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="dot" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="dot" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="dot" />
+  <project path="packages/apps/DUI" name="platform_packages_apps_DUI" remote="dot" />
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="dot" />
   <project path="system/core" name="android_system_core" groups="pdk" remote="dot" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="dot" />
@@ -129,6 +130,7 @@
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="dot" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="dot" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="dot" />
+  <project path="external/DUtils" name="platform_external_DUtils" remote="dot" />
 
   <!-- Qualcomm HALs -->
   <project path="hardware/qcom/gps" name="platform_hardware_qcom_gps" groups="qcom,qcom_gps" remote="dot" />
