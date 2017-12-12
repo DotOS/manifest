@@ -2,8 +2,6 @@
 <manifest>
   <project path="bionic" name="android_bionic" remote="dot" />
   <project path="libcore" name="android_libcore" remote="dot" />
-  <project path="development" name="android_development" remote="dot" />
-  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="dot" />
   <project path="frameworks/av" name="android_frameworks_av" remote="dot" />
   <project path="frameworks/base" name="android_frameworks_base" remote="dot" />
   <project path="frameworks/native" name="android_frameworks_native" remote="dot" />
@@ -38,7 +36,6 @@
   <project path="external/skia" name="android_external_skia" remote="dot"/>
   <project path="art" name="android_art" remote="dot" />
   <project path="system/core" name="android_system_core" remote="dot" />
-  <project path="build/kati" name="android_build_kati" remote="dot" />
   <project path="build/blueprint" name="android_build_blueprint" remote="dot" />
   <project path="build/soong" name="android_build_soong" remote="dot" >
   	<linkfile src="root.bp" dest="Android.bp" />
