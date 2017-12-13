@@ -41,4 +41,10 @@
   	<linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
+  
+  <!-- Common device deps -->
+  <project path="device/qcom/common" name="android_device_qcom_common" remote="dot" />
+  <project path="external/sony/boringssl-compat" name="LineageOS/android_external_sony_boringssl-compat"/>
+  <project path="external/bson" name="LineageOS/android_external_bson" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" />
 </manifest>
