@@ -5,7 +5,7 @@
            fetch="https://github.com/"
            review="review.lineageos.org" />
 
-  <remote  name="github-ssh"
+  <remote  name="private"
            fetch="ssh://git@github.com" />
 
   <remote  name="aosp"
