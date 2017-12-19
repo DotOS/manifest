@@ -30,6 +30,7 @@
   <project path="vendor/dot" name="android_vendor_dot" remote="dot" />
   <project path="system/media" name="android_system_media" remote="dot" />
   <project path="external/DUtils" name="android_external_DUtils" remote="dot" revision="n7x"/>
+  <project path="ota" name="DotOS/services_apps_ota" remote="github-ssh" revision="dot-n" />
 
   <!-- Build tools -->
   <project path="dot_scripts" name="dot_scripts" remote="dot" />
