@@ -2,11 +2,24 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="dot"
+           fetch="https://github.com/dotos"
+           revision="refs/heads/dot-o" 
+		   review="https://gerrit.droidontime.com/" />
+
+  <remote  name="dotOS-devices"
+           fetch="https://github.com/dotOS-Devices" 
+           revision="refs/heads/dot-o" />									 
+  
   <default revision="refs/tags/android-8.1.0_r4"
            remote="aosp"
-           sync-j="4" />
+           sync-j="4" 
+		   sync-c="true"/>
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -622,4 +635,11 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+	<!-- dotOS repos -->
+  <include name="snippets/dot.xml" />
+  
+  <!-- Remove unused/forked AOSP Projects -->
+  <include name="snippets/remove.xml" />
+
+  
 </manifest>
