@@ -10,6 +10,7 @@
 
   <remote  name="dot"
            fetch="https://github.com/dotOS"
+	   review="https://gerrit.droidontime.com/"
            revision="refs/heads/dot-o" />
 
   <remote  name="dotOS-devices"
