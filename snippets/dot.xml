@@ -102,6 +102,9 @@
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-15.1-caf-8994" />
   <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-15.1-caf-8996" />
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-15.1-caf-8998" />
+  <project path="hardware/qcom/neuralnetworks/hvxservice" name="android_hardware_qcom_neuralnetworks_hvxservice" groups="qcom" remote="los" >
+    <copyfile dest="hardware/qcom/Android.bp" src="Android.bp"/>
+  </project>
 
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="los" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" groups="pdk" remote="dot" />
