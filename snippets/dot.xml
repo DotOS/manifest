@@ -65,6 +65,7 @@
   <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="dot" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="dot" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="dot" />
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="dot" />
   <project path="vendor/dot" name="android_vendor_dot" remote="dot" />
   <project path="external/DUtils" name="platform_external_DUtils" remote="dot" />
