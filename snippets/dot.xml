@@ -24,6 +24,7 @@
   <project path="bionic" name="android_bionic" groups="pdk" remote="dot" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="dot" />
   <project path="development" name="android_development" groups="pdk-cw-fs,pdk-fs" remote="dot" />
+  <project path="external/chromium-webview" name="android_external_chromium-webview" groups="pdk" remote="los" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" groups="pdk" remote="dot" />
   <project path="frameworks/av" name="android_frameworks_av" groups="pdk" remote="dot" />
   <project path="frameworks/base" name="android_frameworks_base" remote="dot" />
