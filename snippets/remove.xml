@@ -53,6 +53,7 @@
   <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/SpareParts" />
+  <remove-project name="platform/packages/apps/Stk" />
   <remove-project name="platform/prebuilts/clang/host/darwin-x86" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" />
