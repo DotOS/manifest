@@ -154,6 +154,8 @@
   <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" groups="qcom,qcom_gps" remote="los" />
   <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="los" />
   <project path="hardware/qcom/power" name="android_hardware_qcom_power" groups="qcom,pdk" remote="los" />
+  <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="los" />
+  <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="los" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="los" />
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="los" revision="lineage-15.1-caf" />
   <project path="system/nfc" name="android_system_nfc" groups="pdk" remote="los" />
