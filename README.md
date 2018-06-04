@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/DotOS/manifest/blob/dot-o/dot.png" > 
+<img src="https://github.com/DotOS/manifest/blob/dot-o/About.png" > 
 </p>
 
 --------------------------------------------------------------
