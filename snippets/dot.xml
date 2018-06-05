@@ -42,6 +42,7 @@
   <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" groups="pdk-fs" remote="dot" />
   <project path="packages/apps/DotUICenter" name="android_packages_apps_DotUICenter" remote="dot" />
   <project path="packages/apps/DotOTA" name="android_packages_apps_DotOTA" remote="dot" />
+  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" remote="dot" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="dot" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="dot" />
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" groups="pdk-fs" remote="dot" />
