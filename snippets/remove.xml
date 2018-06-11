@@ -119,5 +119,5 @@
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/toybox" />
-
+  <remove-project name="platform/external/f2fs-tools" />
 </manifest>
