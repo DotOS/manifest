@@ -20,7 +20,10 @@
 
 
 -----------------------------------------------------------------------------
-
+ 
+ Gerrit
+ ==============
+ Submit your All patches through our [Gerrit Code Review](gerrit.droidontime.com).
 
  Getting Started
  ==============
