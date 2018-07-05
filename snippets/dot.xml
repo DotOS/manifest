@@ -21,6 +21,7 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
+  <project path="art" name="android_art" groups="pdk" remote="los" />
   <project path="bionic" name="android_bionic" groups="pdk" remote="dot" />
   <project path="bootable/recovery" name="android_bootable_recovery" groups="pdk" remote="dot" />
   <project path="development" name="android_development" groups="pdk-cw-fs,pdk-fs" remote="dot" />
