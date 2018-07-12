@@ -121,4 +121,5 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/f2fs-tools" />
+  <remove-project name="platform/external/libdrm" />
 </manifest>
