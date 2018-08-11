@@ -17,7 +17,7 @@
            fetch="https://github.com/dotOS-Devices" 
            revision="refs/heads/dot-o" />
 
-  <default revision="refs/tags/android-8.1.0_r36"
+  <default revision="refs/tags/android-8.1.0_r43"
            remote="aosp"
            sync-j="4"
            sync-c="true"/>
