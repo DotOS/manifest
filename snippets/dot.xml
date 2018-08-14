@@ -184,4 +184,5 @@
   <!-- device dependencies -->
   <project path="system/qcom" name="android_system_qcom" groups="qcom" remote="los" />
   <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="los" />
+  <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="los" />
 </manifest> 
