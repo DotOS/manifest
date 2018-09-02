@@ -2,11 +2,25 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+		   
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="dot"
+           fetch="https://github.com/dotos-pie"
+	   review="http://gerrit.droidontime.com/"
+           revision="refs/heads/dot-p" />
+		   
+  <remote  name="dotOS-devices"
+           fetch="https://github.com/dotOS-Devices" 
+           revision="refs/heads/dot-p" />
+	
   <default revision="refs/tags/android-9.0.0_r3"
            remote="aosp"
-           sync-j="4" />
+           sync-j="4" 
+		   sync-c="true"/>
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -698,4 +712,7 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <!-- Custom repos -->
+  <include name="snippets/remove.xml" />
+  <include name="snippets/dot.xml" />				   
 </manifest>
