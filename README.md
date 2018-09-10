@@ -1,10 +1,10 @@
 <p align="center">
-<img src="https://github.com/DotOS/manifest/blob/dot-o/About.png" > 
+<img src="https://raw.githubusercontent.com/samgrande/manifest-1/dot-p/Untitled-1.png" > 
 </p>
-
---------------------------------------------------------------
- Dot OS 3.x - Android Pie
- ==========
+<p >
+<img src="https://raw.githubusercontent.com/samgrande/manifest-1/dot-p/Untitled-3.png" > 
+</p>
+ 
  Credits:
  =======
  * [**LineageOS**](https://github.com/LineageOS)
@@ -55,15 +55,13 @@ From root directory of Project, perform following commands in terminal
 ```
 
 
-<p align="center">
-<img src="https://github.com/DotOS/manifest/blob/dot-n/dotlogo.png" > 
-</p>
-
---------------------------------------------------------------------------------------------------------------------------
-
 For maintainership & to submit patches refer [**HERE**](https://github.com/DotOS/android_vendor_dot/blob/dot-o/README.md)
 
---------------------------------------------------------------------------------------------------------------------------
+
+
+<p align="center">
+<img src="https://raw.githubusercontent.com/samgrande/manifest-1/dot-p/Untitled-4.png" > 
+</p>
 
 
 
