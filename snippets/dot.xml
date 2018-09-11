@@ -33,9 +33,7 @@
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="dot" />
   <project path="frameworks/support" name="android_frameworks_support" groups="pdk" remote="dot" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="dot" />
-  <project path="hardware/aosp/interfaces" name="android_hardware_aosp_interfaces" remote="dot" >
-      <copyfile dest="hardware/aosp/Android.bp" src="Android.bp"/>
-  </project>
+  <project path="hardware/aosp/interfaces" name="android_hardware_aosp_interfaces" remote="dot" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="dot" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" groups="pdk-fs" remote="dot" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" groups="pdk-fs" remote="dot" />
@@ -66,8 +64,9 @@
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="dot" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="dot" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" groups="pdk" remote="dot" />
-  <project path="system/hwservicemanager" name="android_system_hwservicemanager" groups="pdk" remote="dot" />
   <project path="system/libhidl" name="android_system_libhidl" groups="pdk" remote="dot" />
+  <project path="system/libhwbinder" name="android_system_libhwbinder" groups="pdk" remote="dot" />
+  <project path="system/hwservicemanager" name="android_system_hwservicemanager" groups="pdk" remote="dot" />
   <project path="system/netd" name="android_system_netd" groups="pdk" remote="dot" />
   <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="dot" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="dot" />
@@ -84,7 +83,7 @@
   <project path="hardware/qcom/audio-caf/msm8960" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-16.0-caf-8960" />
   <project path="hardware/qcom/audio-caf/msm8974" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-16.0-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-16.0-caf-8994" />
-  <project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-16.0-caf-8996" />
+  <!--project path="hardware/qcom/audio-caf/msm8996" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-16.0-caf-8996" /> -->
   <project path="hardware/qcom/audio-caf/msm8998" name="android_hardware_qcom_audio" groups="qcom,qcom_audio" remote="los" revision="lineage-16.0-caf-8998" />
   <project path="hardware/qcom/display" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" />
   <!--project path="hardware/qcom/display-caf/apq8084" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-15.1-caf-8084" /> -->
@@ -93,7 +92,7 @@
   <project path="hardware/qcom/display-caf/msm8960" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8960" />
   <project path="hardware/qcom/display-caf/msm8974" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8974" />
   <project path="hardware/qcom/display-caf/msm8994" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8994" />
-  <project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8996" />
+  <!--project path="hardware/qcom/display-caf/msm8996" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8996" /> -->
   <project path="hardware/qcom/display-caf/msm8998" name="android_hardware_qcom_display" groups="pdk,qcom,qcom_display" remote="los" revision="lineage-16.0-caf-8998" />
   <project path="hardware/qcom/media" name="android_hardware_qcom_media" groups="qcom" remote="los"/>
   <!--project path="hardware/qcom/media-caf/apq8084" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-15.1-caf-8084" /> -->
@@ -102,7 +101,7 @@
   <project path="hardware/qcom/media-caf/msm8960" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-16.0-caf-8960" />
   <project path="hardware/qcom/media-caf/msm8974" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-16.0-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8994" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-16.0-caf-8994" />
-  <project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-16.0-caf-8996" />
+  <!--project path="hardware/qcom/media-caf/msm8996" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-16.0-caf-8996" /> -->
   <project path="hardware/qcom/media-caf/msm8998" name="android_hardware_qcom_media" groups="qcom" remote="los" revision="lineage-16.0-caf-8998" />
 
   <!-- <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" remote="los" /> -->
@@ -140,6 +139,7 @@
   <project path="external/mksh" name="android_external_mksh" groups="pdk" remote="los" />
   <project path="external/nano" name="android_external_nano" remote="dot" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="dot" />
+  <project path="external/openssh" name="android_external_openssh" remote="dot" />
   <project path="external/perfetto" name="android_external_perfetto" remote="dot" />
   <project path="external/p7zip" name="android_external_p7zip" remote="dot" />
   <project path="external/pigz" name="android_external_pigz" remote="dot" />
