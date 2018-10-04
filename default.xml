@@ -9,7 +9,7 @@
            fetch="https://github.com/" />
 
   <remote  name="dot"
-           fetch="https://github.com/dotos-pie"
+           fetch="https://github.com/DotOS"
 	   review="http://gerrit.droidontime.com/"
            revision="refs/heads/dot-p" />
 		   

@@ -25,7 +25,7 @@ To get started with the building process, you'll need to get familiar with [Git 
 To initialize your local repository, use a command like this:
 
 ```bash
-    repo init -u git://github.com/dotos-pie/manifest.git -b dot-p
+    repo init -u git://github.com/DotOS/manifest.git -b dot-p
 ```
 
 Then to sync up:
@@ -55,7 +55,7 @@ From root directory of Project, perform following commands in terminal
 ```
 
 
-For maintainership & to submit patches refer [**HERE**](https://github.com/DotOS/android_vendor_dot/blob/dot-o/README.md)
+For maintainership & to submit patches refer [**HERE**](https://github.com/DotOS/android_vendor_dot/blob/dot-p/README.md)
 
 
 
