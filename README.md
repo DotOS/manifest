@@ -39,13 +39,13 @@ To initialize your local repository, use a command like this:
 Then to sync up:
 
 ```bash
-    repo sync  -f --force-sync --no-clone-bundle
+    repo sync -f --force-sync --no-clone-bundle --no-tags
 ```
 
 Additionally, you can define the number of parallel download repo should do:
 
 ```bash
-    repo sync -f -jX --force-sync --no-clone-bundle  ( X is the number of parallel download repo should do choose depending on your cpu )
+    repo sync -f -jX --force-sync --no-clone-bundle  (X is the number of parallel download repo should do choose depending on your CPU)
 ```
 
 ----------------------------------
@@ -57,7 +57,7 @@ From root directory of Project, perform following commands in terminal
 
 
 ```bash
-	. build/envsetup.sh
+	source build/envsetup.sh
    
         lunch dot_<codename>
    
