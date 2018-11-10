@@ -170,7 +170,7 @@
   <project path="hardware/qcom/wlan-caf" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="dot" revision="dot-p-caf" />
   <project path="hardware/qcom/fm" name="android_hardware_qcom_fm" remote="dot" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" groups="qcom_camera" remote="los" />
-  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="los" revision="lineage-15.1" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="dot" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="dot" />
   <!--project path="vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm" remote="los" />-->
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="los" >
