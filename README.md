@@ -4,7 +4,11 @@
 <p >
 <img src="https://raw.githubusercontent.com/samgrande/manifest-1/dot-p/Untitled-3.png" > 
 </p>
- 
+
+# Downloads:
+
+[![Download dotOS 2.x - O](https://a.fsdn.com/con/app/sf-download-button)](https://sourceforge.net/projects/dotos-2-x/files/latest/download)      [![Download dotOS 2.x - O](https://img.shields.io/sourceforge/dt/dotos-2-x.svg)](https://sourceforge.net/projects/dotos-2-x/files/latest/download)      [![Download dotOS 2.x - O](https://img.shields.io/sourceforge/dd/dotos-2-x.svg)](https://sourceforge.net/projects/dotos-2-x/files/latest/download)      [![Download dotOS 2.x - O](https://img.shields.io/sourceforge/dw/dotos-2-x.svg)](https://sourceforge.net/projects/dotos-2-x/files/latest/download)      [![Download dotOS 2.x - O](https://img.shields.io/sourceforge/dm/dotos-2-x.svg)](https://sourceforge.net/projects/dotos-2-x/files/latest/download)
+
  Credits:
  =======
  * [**LineageOS**](https://github.com/LineageOS)
