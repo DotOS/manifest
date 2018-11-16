@@ -116,6 +116,7 @@
 
   <!-- Device -->
   <project path="device/qcom/common" name="android_device_qcom_common" remote="los" revision="lineage-15.1" />
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="dot" />
   <!--project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="dot" /> -->
   <!--project path="device/aosp/sepolicy" name="android_device_aosp_sepolicy" remote="dot" /> -->
 
