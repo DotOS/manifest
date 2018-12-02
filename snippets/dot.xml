@@ -118,7 +118,7 @@
   <project path="device/qcom/common" name="android_device_qcom_common" remote="los" revision="lineage-15.1" />
   <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="dot" />
   <!--project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="dot" /> -->
-  <!--project path="device/aosp/sepolicy" name="android_device_aosp_sepolicy" remote="dot" /> -->
+  <project path="device/dot/sepolicy" name="android_device_dot_sepolicy" remote="dot" />
 
   <!-- Packages -->
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="los" />
