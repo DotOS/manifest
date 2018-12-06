@@ -52,6 +52,8 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" remote="dot" />
   <!-- <project path="packages/apps/Snap" name="android_packages_apps_Snap" groups="pdk-fs" remote="dot" /> -->
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="dot" />
+  <project path="packages/apps/SmartNav" name="android_packages_apps_SmartNav" remote="dot" />
+  <project path="packages/apps/SmartNavSettings" name="android_packages_apps_SmartNavSettings" remote="dot" />
   <!-- <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="dot" /> -->
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="dot" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="dot" />
