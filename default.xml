@@ -10,14 +10,14 @@
 
   <remote  name="dot"
            fetch="https://github.com/DotOS"
-	   review="http://gerrit.droidontime.com/"
+	       review="http://gerrit.droidontime.com/"
            revision="refs/heads/dot-p" />
 		   
   <remote  name="dotOS-devices"
            fetch="https://github.com/dotOS-Devices" 
            revision="refs/heads/dot-p" />
 	
-  <default revision="refs/tags/android-9.0.0_r16"
+  <default revision="refs/tags/android-9.0.0_r21"
            remote="aosp"
            sync-j="4" 
 		   sync-c="true"/>
