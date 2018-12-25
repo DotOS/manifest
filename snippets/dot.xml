@@ -163,7 +163,7 @@
   <project path="hardware/qcom/thermal" name="android_hardware_qcom_thermal" remote="los" revision="lineage-15.1" />
   <project path="hardware/qcom/vr" name="android_hardware_qcom_vr" remote="los" revision="lineage-15.1" />
   <project path="hardware/ril" name="android_hardware_ril" groups="pdk" remote="dot" />
-  <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="los" revision="lineage-15.1-caf" />
+  <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="dot" revision="dot-p-caf" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="los" />
   <!-- <project path="system/nfc" name="android_system_nfc" groups="pdk" remote="los" /> -->
   <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="los" />
