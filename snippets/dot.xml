@@ -78,6 +78,7 @@
   <project path="system/qcom" name="android_system_qcom" groups="pdk" remote="dot" />
   <project path="system/sepolicy" name="android_system_sepolicy" groups="pdk" remote="dot" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="los" />
+  <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="dot" />
   <project path="system/vold" name="android_system_vold" groups="pdk" remote="dot" />
   <project path="vendor/dot" name="android_vendor_dot" remote="dot" />
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="dot" />
@@ -175,7 +176,6 @@
   <project path="hardware/ril-caf" name="android_hardware_ril" groups="pdk" remote="dot" revision="dot-p-caf" />
   <project path="system/security" name="android_system_security" groups="pdk" remote="los" />
   <!-- <project path="system/nfc" name="android_system_nfc" groups="pdk" remote="los" /> -->
-  <project path="system/update_engine" name="android_system_update_engine" groups="pdk" remote="los" />
   <project path="hardware/qcom/bt" name="android_hardware_qcom_bt" groups="qcom" remote="dot" />
   <project path="hardware/qcom/bt-caf" name="android_hardware_qcom_bt" groups="qcom" remote="dot" revision="dot-p-caf" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" groups="qcom_wlan" remote="dot" />
