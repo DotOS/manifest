@@ -7,6 +7,16 @@
  Dot OS 2.x - Oreo
  ==========
 
+Downloads:
+=========
+
+[![Download dotOS 2.x - O](https://img.shields.io/sourceforge/dd/dotos-2-x.svg)](https://sourceforge.net/projects/dotos-2-x/files/latest/download)
+
+[![Download dotOS 2.x - O](https://img.shields.io/sourceforge/dw/dotos-2-x.svg)](https://sourceforge.net/projects/dotos-2-x/files/latest/download)
+
+[![Download dotOS 2.x - O](https://img.shields.io/sourceforge/dm/dotos-2-x.svg)](https://sourceforge.net/projects/dotos-2-x/files/latest/download)
+
+[![Download dotOS 2.x - O](https://img.shields.io/sourceforge/dt/dotos-2-x.svg)](https://sourceforge.net/projects/dotos-2-x/files/latest/download)
 
  Credits
  =======
