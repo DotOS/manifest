@@ -56,7 +56,7 @@
   <project path="packages/apps/SmartNavSettings" name="android_packages_apps_SmartNavSettings" remote="dot" />
   <project path="packages/apps/SystemUpdates" name="android_packages_apps_SystemUpdates" remote="dot" />
   <project path="packages/apps/WeatherClient" name="android_packages_apps_WeatherClient" remote="dot" />
-  <!-- <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="dot" /> -->
+  <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" groups="pdk-fs" remote="los" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="dot" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="dot" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="dot" />
