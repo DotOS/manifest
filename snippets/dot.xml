@@ -50,7 +50,7 @@
   <project path="packages/apps/Recorder" name="android_packages_apps_Recorder" remote="dot" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" remote="dot" />
   <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" remote="dot" />
-  <!-- <project path="packages/apps/Snap" name="android_packages_apps_Snap" groups="pdk-fs" remote="dot" /> -->
+  <project path="packages/apps/Snap" name="android_packages_apps_Snap" groups="pdk-fs" remote="dot" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="dot" />
   <project path="packages/apps/SmartNav" name="android_packages_apps_SmartNav" remote="dot" />
   <project path="packages/apps/SmartNavSettings" name="android_packages_apps_SmartNavSettings" remote="dot" />
