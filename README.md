@@ -80,7 +80,6 @@ make bacon
 Some Links:-
 ============
 * [**Website**](https://www.droidontime.com)
-* [**Google Plus**](https://plus.google.com/communities/101137692192340076065)
 * [**Telegram Public Chat**](https://t.me/dotos)
 * [**Telegram Channel**](https://t.me/dotOSchannel)
 * [**Facebook Page**](https://www.facebook.com/dotosofficial)
