@@ -67,7 +67,7 @@
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="dot" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="dot" />
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="dot" />
-  <project path="system/core" name="android_system_core" groups="pdk" remote="dot" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="dot-gitlab" />
   <project path="system/extras" name="android_system_extras" groups="pdk" remote="dot" />
   <project path="system/media" name="android_system_media" groups="pdk" remote="dot" />
   <project path="system/hardware/interfaces" name="android_system_hardware_interfaces" groups="pdk" remote="dot" />

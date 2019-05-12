@@ -12,6 +12,10 @@
            fetch="https://github.com/DotOS"
 	         review="http://gerrit.droidontime.com/"
            revision="refs/heads/dot-p" />
+  
+  <remote  name="dot-gitlab"
+           fetch="https://gitlab.com/DotOS-Official"
+           revision="refs/heads/dot-p" />
 		   
   <remote  name="dotOS-devices"
            fetch="https://github.com/dotOS-Devices" 
@@ -20,7 +24,7 @@
   <default revision="refs/tags/android-9.0.0_r37"
            remote="aosp"
            sync-j="4" 
-		   sync-c="true"/>
+		       sync-c="true"/>
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
