@@ -153,6 +153,7 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="dot" />
   <project path="external/openssh" name="android_external_openssh" remote="dot" />
   <project path="external/perfetto" name="android_external_perfetto" remote="dot" />
+  <project path="external/proguard" name="android_external_proguard" remote="dot" />
   <project path="external/p7zip" name="android_external_p7zip" remote="dot" />
   <project path="external/pigz" name="android_external_pigz" remote="dot" />
   <!-- <project path="external/rsync" name="android_external_rsync" remote="los" /> -->

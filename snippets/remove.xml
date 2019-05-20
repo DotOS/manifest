@@ -122,5 +122,6 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/toybox" />
   <remove-project name="platform/external/perfetto" />
+  <remove-project name="platform/external/proguard" />
   <remove-project name="platform/external/selinux" />
 </manifest>
