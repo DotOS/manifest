@@ -71,7 +71,7 @@ make bacon
 
 • For maintainership & to submit patches refer [**HERE**](https://github.com/DotOS/android_vendor_dot/blob/dot-p/README.md)
 
-• Submit your All patches through our [**Gerrit Code Review**](http://gerrit.droidontime.com)
+• Submit your All patches through our [**Gerrit Code Review**](https://review.droidontime.com)
 
 • Help us on translation through our [**Crowdin**](https://translations.droidontime.com)
 
