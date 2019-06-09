@@ -9,8 +9,11 @@
   <project path="manifest" name="manifest" remote="dot" />
   <project path="frameworks/base" name="android_frameworks_base" remote="dot" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="dot" />
+  <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" groups="pdk-fs" remote="dot" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="dot" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" groups="pdk-fs" remote="dot" />
+  <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" groups="pdk-fs" remote="dot" />
+  <project path="packages/apps/ExactCalculator" name="android_packages_apps_ExactCalculator" groups="pdk-fs" remote="dot" />
   <project path="packages/apps/PackageInstaller" name="android_packages_apps_PackageInstaller" groups="pdk-cw-fs,pdk-fs" remote="dot" />
   <project path="packages/apps/DotExtras" name="android_packages_apps_DotExtras" remote="dot" />
   <project path="packages/apps/SystemUpdates" name="android_packages_apps_SystemUpdates" remote="dot" />
@@ -20,5 +23,6 @@
   <project path="packages/apps/WeatherClient" name="android_packages_apps_WeatherClient" remote="dot" />
   <project path="packages/apps/SmartNav" name="android_packages_apps_SmartNav" remote="dot" />
   <project path="packages/apps/SmartNavSettings" name="android_packages_apps_SmartNavSettings" remote="dot" />
+  <project path="packages/apps/Snap" name="android_packages_apps_Snap" remote="dot" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" groups="pdk-cw-fs,pdk-fs" remote="dot" />
 </manifest>
