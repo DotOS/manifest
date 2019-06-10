@@ -165,6 +165,7 @@
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="dot" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="los" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="los" />
+  <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="los" />
 
   <!-- HALs -->
   <project path="hardware/qcom/bootctrl" name="android_hardware_qcom_bootctrl" groups="pdk" remote="los" />
