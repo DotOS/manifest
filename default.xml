@@ -21,7 +21,7 @@
            fetch="https://github.com/dotOS-Devices" 
            revision="refs/heads/dot-p" />
 	
-  <default revision="refs/tags/android-9.0.0_r45"
+  <default revision="refs/tags/android-9.0.0_r47"
            remote="aosp"
            sync-j="4" 
 		       sync-c="true"/>
