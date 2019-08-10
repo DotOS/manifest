@@ -32,6 +32,7 @@
   <project path="frameworks/compile/mclinker" name="android_frameworks_compile_mclinker" groups="pdk,tradefed" remote="dot" />
   <project path="frameworks/native" name="android_frameworks_native" groups="pdk" remote="dot" />
   <project path="frameworks/support" name="android_frameworks_support" groups="pdk" remote="dot" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs"  remote="dot"  />
   <project path="frameworks/opt/net/voip" name="android_frameworks_opt_net_voip" groups="pdk" remote="dot" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" groups="pdk" remote="dot" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" groups="pdk" remote="dot" />
