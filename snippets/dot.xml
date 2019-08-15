@@ -169,6 +169,7 @@
   <project path="external/zip" name="android_external_zip" remote="dot" />
   <project path="external/tinycompress" name="android_external_tinycompress" groups="pdk" remote="dot" />
   <project path="external/selinux" name="android_external_selinux" groups="pdk" remote="los" />
+  <project path="external/skia" name="android_external_skia" groups="pdk" remote="dot" />
   <project path="external/toybox" name="android_external_toybox" groups="pdk" remote="los" />
   <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="los" />
 
