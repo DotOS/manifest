@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote name="dot"
+          fetch="https://github.com/dotos-test/"
+          revision="refs/heads/dot11" />
+
+  <project path="bionic" name="android_bionic" remote="dot" />
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="dot" />
+
+  <!-- Build Repos -->
+  <project path="build/make" name="android_build" groups="pdk" remote="dot" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <project path="platform_testing" name="android_platform_testing" remote="dot" />
+  <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="dot" />
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="dot" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+
+  <!-- CodeAurora additions -->
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="dot" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="dot" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="dot" />
+
+  <!-- Dot Repos -->
+  <project path="vendor/dot" name="android_vendor_dot" remote="dot" />
+  <project path="hardware/dot/interfaces" name="android_hardware_dot_interfaces" remote="dot" />
+
+  <!-- External Repos -->
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="dot" />
+  <project path="external/selinux" name="android_external_selinux" remote="dot" />
+
+  <!-- Frameworks Repos -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="dot" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="dot" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="dot" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="dot" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" groups="qcom_wlan" remote="dot" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="dot" />
+
+  <!-- Packages -->
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dot" />
+
+  <!-- Prebuilts -->
+  <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="dot" />
+
+  <!-- Sepolicy Repos -->
+  <project path="device/dot/sepolicy" name="android_device_dot_sepolicy" remote="dot" />
+  <project path="device/qcom/sepolicy-leagcy-um" name="android_device_qcom_sepolicy-legacy-um" remote="dot" />
+
+  <!-- System Repos -->
+  <project path="system/bt" name="android_system_bt" groups="pdk" remote="dot" />
+  <project path="system/core" name="android_system_core" remote="dot" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="dot" />
+
+</manifest>

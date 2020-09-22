@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest> 
+
+  <!-- Device repos -->
+  <remove-project name="device/amlogic/yukawa" />
+  <remove-project name="device/amlogic/yukawa-kernel" />
+  <remove-project name="device/common" />
+  <remove-project name="device/generic/armv7-a-neon" />
+  <remove-project name="device/generic/arm64" />
+  <remove-project name="device/generic/mini-emulator-arm64" />
+  <remove-project name="device/generic/mini-emulator-armv7-a-neon" />
+  <remove-project name="device/generic/mini-emulator-x86" />
+  <remove-project name="device/generic/mini-emulator-x86_64" />
+  <remove-project name="device/generic/qemu" />
+  <remove-project name="device/generic/x86" />
+  <remove-project name="device/generic/x86_64" />
+  <remove-project name="device/generic/uml" />
+  <remove-project name="device/generic/opengl-transport" />
+  <remove-project name="device/google/atv" />
+  <remove-project name="device/google/contexthub" />
+  <remove-project name="device/google/bonito" />
+  <remove-project name="device/google/bonito-kernel" />
+  <remove-project name="device/google/bonito-sepolicy" />
+  <remove-project name="device/google/crosshatch" />
+  <remove-project name="device/google/crosshatch-kernel" />
+  <remove-project name="device/google/crosshatch-sepolicy" />
+  <remove-project name="device/google/cuttlefish" />
+  <remove-project name="device/google/cuttlefish_vmm" />
+  <remove-project name="device/google/cuttlefish_kernel" />
+  <remove-project name="device/google/muskie" />
+  <remove-project name="device/google/sunfish" />
+  <remove-project name="device/google/sunfish-kernel" />
+  <remove-project name="device/google/sunfish-sepolicy" />
+  <remove-project name="device/google/taimen" />
+  <remove-project name="device/google/trout" />
+  <remove-project name="device/google/wahoo" />
+  <remove-project name="device/google/wahoo-kernel" />
+  <remove-project name="device/google/fuchsia" />
+  <remove-project name="device/linaro/bootloader/arm-trusted-firmware" />
+  <remove-project name="device/linaro/bootloader/edk2" />
+  <remove-project name="device/linaro/bootloader/OpenPlatformPkg" />
+  <remove-project name="device/linaro/dragonboard" />
+  <remove-project name="device/linaro/dragonboard-kernel" />
+  <remove-project name="device/linaro/hikey" />
+  <remove-project name="device/linaro/hikey-kernel" />
+  <remove-project name="device/linaro/poplar" />
+  <remove-project name="device/linaro/poplar-kernel" />
+  <remove-project name="device/mediatek/wembley-sepolicy" />
+  <remove-project name="device/sample" />
+  <remove-project name="device/ti/beagle-x15" />
+  <remove-project name="device/ti/beagle-x15-kernel" />
+
+  <!-- external repos -->
+  <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/external/selinux" />
+
+  <!-- Frameworks Repos -->
+  <remove-project name="platform/frameworks/av" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/base" />
+
+  <!-- General repos -->
+  <remove-project name="platform/bionic" />
+  <remove-project name="platform/build" />
+  <remove-project name="platform/build/blueprint" />
+  <remove-project name="platform/build/soong" />
+  <remove-project name="platform/bootable/recovery" />
+
+  <!-- Hardware repos -->
+  <remove-project name="platform/hardware/libhardware_legacy" />
+  <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/nxp/nfc" />
+  <remove-project name="platform/hardware/qcom/wlan" />
+  <remove-project name="platform/hardware/ril" />
+
+  <!-- packages -->
+  <remove-project name="platform/packages/apps/Browser2" />
+  <remove-project name="platform/packages/apps/DevCamera" />
+  <remove-project name="platform/packages/apps/LegacyCamera" />
+  <remove-project name="platform/packages/apps/Music" />
+  <remove-project name="platform/packages/apps/QuickSearchBox" />
+  <remove-project name="platform/packages/apps/SampleLocationAttribution" />
+  <remove-project name="platform/packages/apps/Settings" />
+
+  <!-- System repos -->
+  <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/libufdt" />
+  <remove-project name="platform/system/sepolicy" />
+
+  <!-- More repos -->
+  <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+  <remove-project name="platform/platform_testing" />
+
+</manifest>

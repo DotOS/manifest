@@ -2,11 +2,12 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-11.0.0_r3"
            remote="aosp"
-           sync-j="4" />
+           sync-j="4"
+           sync-c="true"/>
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -824,5 +825,15 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+
+    <!-- Remove unused AOSP repos -->
+    <include name="snippets/remove.xml" />
+  
+    <!-- Some Lineage repos -->
+    <include name="snippets/los.xml" />
+    
+    <!-- dot OS repos -->
+    <include name="snippets/dot.xml" />
 
 </manifest>
