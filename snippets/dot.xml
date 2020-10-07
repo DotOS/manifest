@@ -60,7 +60,7 @@
 
   <!-- Sepolicy Repos -->
   <project path="device/dot/sepolicy" name="android_device_dot_sepolicy" remote="dot" />
-  <project path="device/qcom/sepolicy-leagcy-um" name="android_device_qcom_sepolicy-legacy-um" remote="dot" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="dot" />
 
   <!-- System Repos -->
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="dot" />
