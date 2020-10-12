@@ -81,6 +81,16 @@
   <remove-project name="platform/packages/apps/QuickSearchBox" />
   <remove-project name="platform/packages/apps/SampleLocationAttribution" />
   <remove-project name="platform/packages/apps/Settings" />
+  <remove-project name="platform/packages/apps/Contacts" />
+  <remove-project name="platform/packages/apps/Calendar" />
+  <remove-project name="platform/packages/apps/Dialer" />
+  <remove-project name="platform/packages/apps/DeskClock" />
+  <remove-project name="platform/packages/apps/DocumentsUI" />
+  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/Messaging" />
+  <remove-project name="platform/packages/apps/SettingsIntelligence" />
+  <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/inputmethods/LatinIME" />
 
   <!-- System repos -->
   <remove-project name="platform/system/bt" />
@@ -91,5 +101,6 @@
   <!-- More repos -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
   <remove-project name="platform/platform_testing" />
+  <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
 
 </manifest>
