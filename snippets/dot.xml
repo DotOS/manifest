@@ -38,6 +38,7 @@
   <!-- Dot Repos -->
   <project path="vendor/dot" name="android_vendor_dot" remote="dot" />
   <project path="device/dot/sepolicy" name="android_device_dot_sepolicy" remote="dot" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="dot" />
   <project path="hardware/dot/interfaces" name="android_hardware_dot_interfaces" remote="dot" />
 
   <!-- External Repos -->
