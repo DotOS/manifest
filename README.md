@@ -19,3 +19,6 @@ Start the build:-
   lunch dot_<devicecodename>-userdebug
   make bacon -jx
 ```
+Our Gerrit:-
+=================
+https://review.droidontime.com/
