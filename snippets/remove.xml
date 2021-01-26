@@ -79,7 +79,6 @@
   <remove-project name="platform/packages/apps/SampleLocationAttribution" />
   <remove-project name="platform/packages/apps/Settings" />
   <remove-project name="platform/packages/apps/Contacts" />
-  <remove-project name="platform/packages/apps/Calendar" />
   <remove-project name="platform/packages/apps/Dialer" />
   <remove-project name="platform/packages/apps/DeskClock" />
   <remove-project name="platform/packages/apps/DocumentsUI" />
