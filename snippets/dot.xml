@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="github"
-           fetch="https://github.com/" />
-
   <remote name="dot"
           fetch="https://github.com/DotOS/"
+          review="https://review.droidontime.com/"
           revision="refs/heads/dot11" />
 
   <project path="manifest" name="manifest" remote="dot" />
