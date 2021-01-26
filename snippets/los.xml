@@ -43,6 +43,9 @@
   <!-- System -->
   <project path="system/libufdt" name="android_system_libufdt" groups="pdk" remote="lineage" />
 
+  <!-- Custom packages -->
+  <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings" remote="lineage" />
+
   <!-- Audio HALS -->
   <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8996" remote="lineage" />
   <project path="hardware/qcom-caf/msm8998/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-msm8998" remote="lineage" />
