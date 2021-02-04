@@ -66,8 +66,9 @@
 
   <!-- Frameworks Repos -->
   <remove-project name="platform/frameworks/av" />
-  <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/frameworks/native" />
+  <remove-project name="platform/frameworks/opt/telephony" />
 
   <!-- General repos -->
   <remove-project name="platform/bionic" />
@@ -101,6 +102,8 @@
   <remove-project name="platform/packages/apps/Messaging" />
   <remove-project name="platform/packages/apps/SettingsIntelligence" />
   <remove-project name="platform/packages/apps/ThemePicker" />
+  <remove-project name="platform/packages/services/Telecomm" />
+  <remove-project name="platform/packages/services/Telephony" />
   <remove-project name="platform/packages/inputmethods/LatinIME" />
 
   <!-- System repos -->

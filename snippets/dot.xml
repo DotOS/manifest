@@ -47,6 +47,7 @@
   <project path="frameworks/av" name="android_frameworks_av" remote="dot" />
   <project path="frameworks/base" name="android_frameworks_base" remote="dot" />
   <project path="frameworks/native" name="android_frameworks_native" remote="dot" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="dot" />
 
   <!-- Hardware repos -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="dot" />
@@ -67,6 +68,8 @@
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="dot" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="dot" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="dot" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="dot" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="dot" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="dot" />
