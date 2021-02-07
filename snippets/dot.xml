@@ -5,6 +5,11 @@
           fetch="https://github.com/DotOS/"
           review="https://review.droidontime.com/"
           revision="refs/heads/dot11" />
+  
+  <remote name="dot-gitlab"
+          fetch="http://gitlab.com/dotos-official/"
+          review="https://review.droidontime.com/"
+          revision="refs/heads/dot11" />
 
   <project path="manifest" name="manifest" remote="dot" />
   <project path="bionic" name="android_bionic" remote="dot" />
@@ -36,6 +41,7 @@
 
   <!-- Dot Repos -->
   <project path="vendor/dot" name="android_vendor_dot" remote="dot" />
+  <project path="vendor/gms" name="android_vendor_gms" remote="dot-gitlab" />
   <project path="device/dot/sepolicy" name="android_device_dot_sepolicy" remote="dot" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="dot" />
   <project path="hardware/dot/interfaces" name="android_hardware_dot_interfaces" remote="dot" />
