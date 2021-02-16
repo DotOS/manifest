@@ -32,6 +32,7 @@
   <!-- External -->
   <project path="external/bash" name="android_external_bash" remote="lineage" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
   <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
@@ -82,6 +83,7 @@
   <project path="hardware/qcom-caf/msm8998/media" name="android_hardware_qcom_media" revision="lineage-18.1-caf-msm8998" remote="lineage" />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="lineage-18.0-caf-sm8150" remote="lineage" />
 
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" revision="lineage-18.1-caf"  remote="lineage" />
   <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" groups="qcom,pdk-qcom" remote="lineage" >
 
     <!-- add guard for AOSP hardware/qcom dir -->
