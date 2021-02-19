@@ -131,6 +131,7 @@
 
   <!-- More repos -->
   <remove-project name="platform/prebuilts/abi-dumps/vndk" />
+  <remove-project name="platform/prebuilts/sdk" />
   <remove-project name="platform/platform_testing" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" />
 
