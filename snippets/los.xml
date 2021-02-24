@@ -34,8 +34,10 @@
   <project path="external/bash" name="android_external_bash" remote="lineage" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="lineage" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="lineage" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="lineage" />
   <project path="external/htop" name="android_external_htop" remote="lineage" />
   <project path="external/json-c" name="android_external_json-c" remote="lineage" />
+  <project path="external/libcxx" name="android_external_libcxx" remote="lineage" />
   <project path="external/libncurses" name="android_external_libncurses" remote="lineage" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="lineage" />
   <project path="external/nano" name="android_external_nano" remote="lineage" />
