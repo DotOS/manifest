@@ -35,6 +35,7 @@
   <remove-project name="device/google/cuttlefish_vmm" />
   <remove-project name="device/google/cuttlefish_kernel" />
   <remove-project name="device/google/redbull" />
+  <remove-project name="device/google/redbull-kernel" />
   <remove-project name="device/google/redbull-sepolicy" />
   <remove-project name="device/google/redfin" />
   <remove-project name="device/google/redfin-sepolicy" />
