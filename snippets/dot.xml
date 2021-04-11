@@ -101,6 +101,7 @@
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="dot" />
   <project path="system/core" name="android_system_core" remote="dot" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="dot" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" groups="pdk" remote="dot" />
   <project path="system/update_engine" name="android_system_update_engine" remote="dot" />
   <project path="system/vold" name="android_system_vold" remote="dot" />
 
