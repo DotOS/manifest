@@ -85,7 +85,7 @@
 
   <!-- Display HALS -->
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-msm8996" remote="lineage" />
-  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="dot11-caf-msm8998" remote="dot" />
+  <project path="hardware/qcom-caf/msm8998/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-msm8998" remote="lineage" />
   <project path="hardware/qcom-caf/sdm845/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-sdm845" remote="lineage" />
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="dot11-caf-sm8150" remote="dot" />
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-sm8250" remote="lineage" />
