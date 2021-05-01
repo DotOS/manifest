@@ -11,6 +11,7 @@
           review="https://review.droidontime.com/"
           revision="refs/heads/dot11" />
 
+  <project path="art" name="android_art" remote="dot" />
   <project path="manifest" name="manifest" remote="dot" />
   <project path="bionic" name="android_bionic" remote="dot" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="dot" />
