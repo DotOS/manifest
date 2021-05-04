@@ -11,6 +11,14 @@
           review="https://review.droidontime.com/"
           revision="refs/heads/dot11" />
 
+  <remote name="dotOS-Devices"
+          fetch="https://github.com/dotOS-Devices"
+          revision="refs/heads/dot11" />
+  
+  <remote name="dot-git"
+          fetch="https://git.droidontime.com/android"
+          revision="refs/heads/dot11" />
+
   <project path="art" name="android_art" remote="dot" />
   <project path="manifest" name="manifest" remote="dot" />
   <project path="bionic" name="android_bionic" remote="dot" />
