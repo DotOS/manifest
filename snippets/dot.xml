@@ -94,6 +94,7 @@
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="dot" />
   <project path="packages/apps/ThemePicker" name="android_packages_apps_ThemePicker" remote="dot" />
   <project path="packages/apps/SystemUpdates" name="android_packages_apps_SystemUpdates" remote="dot" />
+  <project path="packages/apps/WallpaperPicker2" name="android_packages_apps_WallpaperPicker2" remote="dot" />
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="dot" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="dot" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="dot" />
@@ -103,8 +104,9 @@
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.17-4.8" name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" remote="dot" />
 
   <!-- Sepolicy Repos -->
-  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="dot" />
   <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="dot" />
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="dot" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="dot" />
   <project path="device/mediatek/sepolicy" name="android_device_mediatek_sepolicy" remote="dot" />
 
   <!-- System Repos -->
