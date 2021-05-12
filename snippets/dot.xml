@@ -14,6 +14,10 @@
   <remote name="dotOS-Devices"
           fetch="https://github.com/dotOS-Devices"
           revision="refs/heads/dot11" />
+
+  <remote name="dotos-devices-gitlab"
+          fetch="https://gitlab.com/dotos-devices"
+          revision="refs/heads/dot11" />
   
   <remote name="dot-git"
           fetch="https://git.droidontime.com/android"
