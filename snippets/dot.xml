@@ -54,6 +54,7 @@
 
   <!-- Dot Repos -->
   <project path="vendor/dot" name="android_vendor_dot" remote="dot" />
+  <project path="vendor/support" name="android_vendor_support" remote="dot" />
   <project path="vendor/gms" name="android_vendor_gms" remote="dot-gitlab" />
   <project path="device/dot/sepolicy" name="android_device_dot_sepolicy" remote="dot" />
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="dot" />
@@ -75,6 +76,7 @@
 
   <!-- Hardware repos -->
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="dot" />
+  <project path="hardware/qcom/msm8998" name="hardware_qcom_msm8998" remote="dot" />
   <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="dot" />
   <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" groups="qcom_wlan" remote="dot" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="dot" />
