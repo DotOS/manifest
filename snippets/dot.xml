@@ -111,6 +111,7 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="dot" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="dot" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="dot-git" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="dot" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="dot" />
