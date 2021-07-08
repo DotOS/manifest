@@ -88,9 +88,7 @@
 
   <!-- Hardware repos -->
   <remove-project name="platform/hardware/qcom/audio" />
-  <remove-project name="platform/hardware/qcom/camera" />
   <remove-project name="platform/hardware/qcom/display" />
-  <remove-project name="platform/hardware/qcom/gps" />
   <remove-project name="platform/hardware/qcom/media" />
   <remove-project name="platform/hardware/interfaces" />
   <remove-project name="platform/hardware/libhardware_legacy" />
@@ -98,8 +96,6 @@
   <remove-project name="platform/hardware/nxp/nfc" />
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/hardware/ril" />
-  <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
-  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
 
   <!-- packages -->
   <remove-project name="platform/packages/apps/Bluetooth" />
