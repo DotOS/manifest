@@ -86,6 +86,7 @@
   <project path="hardware/qcom-caf/sdm845/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-sdm845" remote="lineage" />
   <project path="hardware/qcom-caf/sm8150/audio" name="android_hardware_qcom_audio" revision="dot11-caf-sm8150" remote="dot" />
   <project path="hardware/qcom-caf/sm8250/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-sm8250" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8350/audio" name="android_hardware_qcom_audio" revision="lineage-18.1-caf-sm8350" remote="lineage" />
 
 
   <!-- Display HALS -->
@@ -96,6 +97,7 @@
   <project path="hardware/qcom-caf/sm8150/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-sm8150" remote="lineage" />
   <project path="hardware/qcom-caf/sm8250/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-sm8250" remote="lineage" />
   <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" groups="generic_fs,qcom_sdm845" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" revision="lineage-18.1-caf-sm8350" remote="lineage" />
 
   <!-- Media HALS -->
   <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom_media" revision="dot11-caf-msm8996" remote="dot" />
@@ -104,6 +106,7 @@
   <project path="hardware/qcom-caf/sdm845/media" name="android_hardware_qcom_media" revision="lineage-18.1-caf-sdm845" remote="lineage" />
   <project path="hardware/qcom-caf/sm8150/media" name="android_hardware_qcom_media" revision="lineage-18.1-caf-sm8150" remote="lineage" />
   <project path="hardware/qcom-caf/sm8250/media" name="android_hardware_qcom_media" revision="lineage-18.1-caf-sm8250" remote="lineage" />
+  <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom_media" revision="lineage-18.1-caf-sm8350" remote="lineage" />
 
 
   <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom_bootctrl" groups="qcom,pdk-qcom" revision="lineage-18.1-caf"  remote="lineage" />
