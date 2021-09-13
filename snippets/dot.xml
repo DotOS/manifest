@@ -144,6 +144,8 @@
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" remote="dot" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="dot" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="pdk-fs" remote="dot" />
+  <project path="packages/apps/PermissionController" name="android_packages_apps_PermissionController" groups="pdk-fs" remote="dot" />
+  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="dot" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dot" />
   <project path="packages/apps/SettingsIntelligence" name="android_packages_apps_SettingsIntelligence" remote="dot" />
   <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="dot" />
