@@ -1,17 +1,15 @@
 
 <p align="center">
-<img src="https://github.com/DotOS/resources_drawables/blob/master/dotOS-5-githubBanner.png?raw=true" > 
+<img src="https://raw.githubusercontent.com/DotOS/resources_drawables/master/dot11/dot_main-banner.png" > 
 </p>
 
-Downloads:
+Supported Devices and Downloads :- https://www.droidontime.com/devices
 =========
-
-[![Download dotOS 5.x - P](https://img.shields.io/sourceforge/dt/dotos-downloads.svg)](https://sourceforge.net/projects/dotos-downloads/files/latest/download)
 
 -----------------------------------------------------------------------------
 
 <p align="center">
-<img src="https://github.com/DotOS/resources_drawables/blob/master/dot5-release_banner.png?raw=true" > 
+<img src="https://raw.githubusercontent.com/DotOS/resources_drawables/master/dot11/dot5-2-wide.png" > 
 </p>
 
 Downloading Source Code:
