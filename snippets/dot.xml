@@ -62,6 +62,7 @@
   <!-- External repos -->
   <project path="external/boringssl" name="android_external_boringssl" remote="dot" />
   <project path="external/cldr" name="android_external_cldr" remote="dot" />
+  <project path="external/colorkt" name="android_external_colorkt" remote="dot" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="dot" />
   <project path="external/gptfdisk" name="android_external_gptfdisk" remote="dot" />
   <project path="external/guice" name="android_external_guice" remote="dot" />
@@ -69,6 +70,7 @@
   <project path="external/libcxx" name="android_external_libcxx" remote="dot" />
   <project path="external/perfetto" name="android_external_perfetto" remote="dot" />
   <project path="external/selinux" name="android_external_selinux" remote="dot" />
+  <project path="external/themelib" name="android_external_themelib" remote="dot" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="dot" />
   <project path="external/tinycompress" name="android_external_tinycompress" remote="dot" />
   <project path="external/toybox" name="android_external_toybox" remote="dot" />
