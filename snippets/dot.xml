@@ -164,6 +164,7 @@
   <project path="system/core" name="android_system_core" remote="dot" />
   <project path="system/netd" name="android_system_netd" remote="dot" />
   <project path="system/qcom" name="android_system_qcom" remote="dot" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="dot" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="dot" />
   <project path="system/update_engine" name="android_system_update_engine" remote="dot" />
   <project path="system/vold" name="android_system_vold" remote="dot" />
