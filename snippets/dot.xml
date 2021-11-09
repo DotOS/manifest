@@ -66,6 +66,7 @@
 
   <!-- External Repos -->
   <project path="external/tinycompress" name="android_external_tinycompress" remote="dot" />
+  <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="dot" />
   <project path="external/selinux" name="android_external_selinux" remote="dot" />
   <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="dot-git" />
   <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="dot-git" />
@@ -142,6 +143,7 @@
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="dot" />
   <project path="packages/apps/Jelly" name="android_packages_apps_Jelly" remote="dot" />
   <project path="packages/apps/Launcher3" name="android_packages_apps_Launcher3" groups="pdk-fs" remote="dot" />
+  <project path="packages/apps/ManagedProvisioning" name="android_packages_apps_ManagedProvisioning" groups="pdk-fs" remote="dot" />
   <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="dot" />
   <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" groups="pdk-fs" remote="dot" />
   <project path="packages/apps/PermissionController" name="android_packages_apps_PermissionController" groups="pdk-fs" remote="dot" />
@@ -158,7 +160,9 @@
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="dot" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="dot" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="dot-git" />
+  <project path="packages/modules/CaptivePortalLogin" name="android_packages_modules_CaptivePortalLogin" remote="dot" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="dot" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="dot" />
 
   <!-- Prebuilts -->
   <project path="prebuilts/abi-dumps/vndk" name="android_prebuilts_abi-dumps_vndk" remote="dot" />
