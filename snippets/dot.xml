@@ -21,9 +21,9 @@
   <remote name="dotos-devices-gitlab"
           fetch="https://gitlab.com/dotos-devices"
           revision="refs/heads/dot11" />
-  
-  <remote name="dot-git"
-          fetch="https://git.droidontime.com/android"
+
+  <remote name="dotos-gitlab"
+          fetch="https://gitlab.com/dotosofficial"
           revision="refs/heads/dot11" />
 
   <project path="art" name="android_art" remote="dot" />
@@ -68,9 +68,9 @@
   <project path="external/tinycompress" name="android_external_tinycompress" remote="dot" />
   <project path="external/robolectric-shadows" name="android_external_robolectric-shadows" remote="dot" />
   <project path="external/selinux" name="android_external_selinux" remote="dot" />
-  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="dot-git" />
-  <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="dot-git" />
-  <project path="external/faceunlock" name="external_faceunlock" remote="dot-git" />
+  <project path="external/asus/stitchimage" name="external_asus_stitchimage" remote="dotos-gitlab" />
+  <project path="external/airbnb-lottie" name="external_airbnb-lottie" remote="dotos-gitlab" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="dotos-gitlab" />
 
   <!-- Frameworks Repos -->
   <project path="frameworks/av" name="android_frameworks_av" remote="dot" />
@@ -159,7 +159,7 @@
   <project path="packages/inputmethods/LatinIME" name="android_packages_inputmethods_LatinIME" remote="dot" />
   <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="dot" />
   <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="dot" />
-  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="dot-git" />
+  <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="dotos-gitlab" />
   <project path="packages/modules/CaptivePortalLogin" name="android_packages_modules_CaptivePortalLogin" remote="dot" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="dot" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="dot" />
