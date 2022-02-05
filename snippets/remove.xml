@@ -117,9 +117,12 @@
     <remove-project name="platform/frameworks/opt/net/ims" />
     <remove-project name="platform/frameworks/opt/net/wifi" />
     <remove-project name="platform/frameworks/opt/telephony" />
+    <remove-project name="platform/frameworks/opt/timezonepicker" />
 
     <!-- packages -->
+    <remove-project name="platform/packages/apps/Bluetooth" />
     <remove-project name="platform/packages/apps/Settings" />
+    <remove-project name="platform/packages/apps/Stk" />
     <remove-project name="platform/packages/providers/DownloadProvider" />
     <remove-project name="platform/packages/providers/MediaProvider" />
     <remove-project name="platform/packages/services/BuiltInPrintService" />

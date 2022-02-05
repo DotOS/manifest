@@ -97,6 +97,7 @@
   <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="dot" />
   <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="dot" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="dot" />
+  <project path="frameworks/opt/timezonepicker" name="android_frameworks_opt_timezonepicker" remote="dot" />
 
   <!-- Hardware repos -->
   <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="dot" />
@@ -147,9 +148,11 @@
   <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom-caf_msm8996_media" remote="dot" />
 
   <!-- packages repos -->
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="dot" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="dot" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="dot" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dot" />
+  <project path="packages/apps/Stk" name="android_packages_apps_Stk" remote="dot" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="dot" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="dot" />
   <project path="packages/services/BuiltInPrintService" name="android_packages_services_BuiltInPrintService" remote="dot" />
@@ -194,13 +197,16 @@
   <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="dot" />
   <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="dot" />
   <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="dot" />
+  <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_commonsys_display" remote="dot" />
   <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="dot" />
   <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="dot" />
   <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="dot" />
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="dot" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="dot" />
+  <project path="vendor/qcom/opensource/commonsys/dpm" name="android_vendor_qcom_opensource_commonsys_dpm" remote="dot" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="dot" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="dot" />
+  <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" remote="dot" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="dot" />
   <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="dot" />
   <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="dot" />
