@@ -81,6 +81,7 @@
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="dot" />
   <project path="external/json-c" name="android_external_json-c" remote="dot" />
   <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="dot" />
+  <project path="external/mksh" name="android_external_mksh" remote="dot" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="dot" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="dot" />
 
@@ -179,6 +180,7 @@
   
   <!-- vendor repos -->
   <project path="vendor/dot" name="android_vendor_dot" remote="dot" />
+  <project path="vendor/pixel-framework" name="android_vendor_pixel-framework" remote="dot" />
   <project path="vendor/support" name="android_vendor_support" remote="dot" />
   <project path="vendor/gms" name="android_vendor_gms" remote="dot-gitlab" />
 
