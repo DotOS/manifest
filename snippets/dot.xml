@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="github"
+           fetch="https://github.com/" />
+
+  <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
+
+  <remote  name="dot"
+           fetch="https://github.com/DotOS"
+           review="https://review.droidontime.com/"
+           revision="refs/heads/dot12.1" />
+
+  <remote  name="dotOS-Devices"
+           fetch="https://github.com/dotOS-Devices"
+           review="https://review.droidontime.com/"
+           revision="refs/heads/dot12" />
+
+  <remote name="dot-gitlab"
+          fetch="https://gitlab.com/dotos-official"
+          review="https://review.droidontime.com/"
+          revision="refs/heads/dot12" />
+
+  <remote  name="dotOS-devices-gitlab"
+           fetch="https://gitlab.com/dotos-devices"
+           revision="refs/heads/dot12" />
+
+  <remote name="dot-git"
+          fetch="https://git.droidontime.com/android"
+          revision="refs/heads/dot12" />
+
+  <project path="manifest" name="manifest" remote="dot" />
+
+  <project path="art" name="android_art" remote="dot" />
+  <project path="bionic" name="android_bionic" remote="dot" />
+  <project path="build/make" name="android_build" remote="dot" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/blueprint" name="android_build_blueprint" groups="pdk,tradefed" remote="dot" />
+  <project path="build/soong" name="android_build_soong" groups="pdk,tradefed" remote="dot" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
+  <project path="bootable/recovery" name="android_bootable_recovery" remote="dot" />
+  <project path="development" name="android_development" remote="dot" />
+  <project path="platform_testing" name="android_platform_testing" remote="dot" />
+
+  <!-- Device repos -->
+  <project path="device/dot/sepolicy" name="android_device_dot_sepolicy" remote="dot" />
+  <project path="device/qcom/sepolicy" name="android_device_qcom_sepolicy" remote="dot" />
+  <project path="device/qcom/sepolicy-legacy" name="android_device_qcom_sepolicy-legacy" remote="dot" />
+  <project path="device/qcom/sepolicy-legacy-um" name="android_device_qcom_sepolicy-legacy-um" remote="dot" />
+  <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="dot" />
+
+  <!-- External repos -->
+  <project path="external/boringssl" name="android_external_boringssl" remote="dot" />
+  <project path="external/cldr" name="android_external_cldr" remote="dot" />
+  <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="dot" />
+  <project path="external/gptfdisk" name="android_external_gptfdisk" remote="dot" />
+  <project path="external/guice" name="android_external_guice" remote="dot" />
+  <project path="external/icu" name="android_external_icu" remote="dot" />
+  <project path="external/libcxx" name="android_external_libcxx" remote="dot" />
+  <project path="external/perfetto" name="android_external_perfetto" remote="dot" />
+  <project path="external/selinux" name="android_external_selinux" remote="dot" />
+  <project path="external/tinyalsa" name="android_external_tinyalsa" remote="dot" />
+  <project path="external/tinycompress" name="android_external_tinycompress" remote="dot" />
+  <project path="external/toybox" name="android_external_toybox" remote="dot" />
+  <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="dot" />
+
+  <project path="external/bson" name="android_external_bson" remote="dot" />
+  <project path="external/connectivity" name="android_external_connectivity" remote="dot" />
+  <project path="external/exfatprogs" name="android_external_exfatprogs" remote="dot" />
+  <project path="external/json-c" name="android_external_json-c" remote="dot" />
+  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="dot" />
+  <project path="external/mksh" name="android_external_mksh" remote="dot" />
+  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="dot" />
+  <project path="external/tinyxml" name="android_external_tinyxml" remote="dot" />
+
+  <project path="external/ant-wireless/ant_client" name="android_external_ant-wireless_ant_client" remote="dot" />
+  <project path="external/ant-wireless/ant_native" name="android_external_ant-wireless_ant_native" remote="dot" />
+  <project path="external/ant-wireless/ant_service" name="android_external_ant-wireless_ant_service" remote="dot" />
+  <project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="dot" />
+  <project path="external/ant-wireless/hidl" name="android_external_ant-wireless_hidl" remote="dot" />
+
+  <!-- frameworks repos -->
+  <project path="frameworks/av" name="android_frameworks_av" remote="dot" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="dot" />
+  <project path="frameworks/native" name="android_frameworks_native" remote="dot" />
+  <project path="frameworks/opt/net/ims" name="android_frameworks_opt_net_ims" remote="dot" />
+  <project path="frameworks/opt/net/wifi" name="android_frameworks_opt_net_wifi" remote="dot" />
+  <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="dot" />
+
+  <!-- Hardware repos -->
+  <project path="hardware/broadcom/nfc" name="android_hardware_broadcom_nfc" remote="dot" />
+  <project path="hardware/dot/interfaces" name="android_hardware_dot_interfaces" remote="dot" />
+
+  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="dot" />
+  <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="dot" />
+  <project path="hardware/interfaces" name="android_hardware_interfaces" remote="dot" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="dot" />
+  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="dot" />
+  <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="dot" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="dot" />
+  <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="dot" />
+  <project path="hardware/qcom/display" name="android_hardware_qcom_display" remote="dot" />
+  <project path="hardware/qcom/gps" name="android_hardware_qcom_gps" remote="dot" />
+  <project path="hardware/qcom/keymaster" name="android_hardware_qcom_keymaster" remote="dot" />
+  <project path="hardware/qcom/media" name="android_hardware_qcom_media" remote="dot" />
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="android_hardware_qcom_sdm845_data_ipacfg-mgr" remote="dot" >
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
+  </project>
+  <project path="hardware/qcom/sdm845/display" name="android_hardware_qcom_sdm845_display" remote="dot" />
+  <project path="hardware/qcom/sdm845/media" name="android_hardware_qcom_sdm845_media" remote="dot" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="dot" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="dot" />
+
+  <project path="hardware/qcom-caf/bootctrl" name="android_hardware_qcom-caf_bootctrl" remote="dot" />
+  <project path="hardware/qcom-caf/bt" name="android_hardware_qcom-caf_bt" remote="dot" />
+  <project path="hardware/qcom-caf/thermal" name="android_hardware_qcom-caf_thermal" remote="dot" />
+  <project path="hardware/qcom-caf/vr" name="android_hardware_qcom-caf_vr" remote="dot" />
+  <project path="hardware/qcom-caf/wlan" name="android_hardware_qcom-caf_wlan" remote="dot" />
+
+  <!-- Hardware repos - HALS -->
+  <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="dot">
+    <!-- add guard for AOSP hardware/qcom dir -->
+    <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
+    <!-- for AOSP sdm845, we override os_pickup.mk -->
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sdm845/Android.mk" />
+    <!-- add guards for CAF repositories -->
+    <linkfile src="os_pickup.bp" dest="hardware/qcom-caf/msm8996/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/msm8996/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+    <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
+  </project>
+  <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom-caf_msm8996_audio" remote="dot" />
+  <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom-caf_msm8996_display" remote="dot" />
+  <project path="hardware/qcom-caf/msm8996/media" name="android_hardware_qcom-caf_msm8996_media" remote="dot" />
+
+  <!-- packages repos -->
+  <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="dot" />
+  <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="dot" />
+  <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dot" />
+  <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="dot" />
+  <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="dot" />
+  <project path="packages/services/BuiltInPrintService" name="android_packages_services_BuiltInPrintService" remote="dot" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" remote="dot" />
+  <project path="packages/services/Telephony" name="android_packages_services_Telephony" remote="dot" />
+
+  <!-- Prebuilts repos -->
+  <project path="prebuilts/build-tools" name="android_prebuilts_build-tools" remote="dot" clone-depth="1" />
+  <project path="prebuilts/extract-tools" name="android_prebuilts_extract-tools" remote="dot" clone-depth="1" />
+  <project path="prebuilts/tools-dot" name="android_prebuilts_tools-dot" remote="dot" clone-depth="1" />
+
+  <!-- System Repos -->
+  <project path="system/bt" name="android_system_bt" groups="pdk" remote="dot" />
+  <project path="system/core" name="android_system_core" remote="dot" />
+  <project path="system/netd" name="android_system_netd" remote="dot" />
+  <project path="system/qcom" name="android_system_qcom" remote="dot" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="dot" />
+  <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="dot" />
+  <project path="system/update_engine" name="android_system_update_engine" remote="dot" />
+  <project path="system/vold" name="android_system_vold" remote="dot" />
+
+  <!-- tools repos -->
+  <project path="tools/extract-utils" name="android_tools_extract-utils" remote="dot" />
+
+  <!-- vendor repos -->
+  <project path="vendor/dot" name="android_vendor_dot" remote="dot" />
+  <project path="vendor/pixel-framework" name="android_vendor_pixel-framework" remote="dot" />
+  <project path="vendor/support" name="android_vendor_support" remote="dot" />
+  <project path="vendor/gms" name="android_vendor_gms" remote="dot-gitlab" />
+
+  <!-- Vendor repos - NXP -->
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_opensource_interfaces_nfc" remote="dot" />
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="dot" />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="dot" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="dot" />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_pn5xx_halimpl" remote="dot" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_pn5xx_hidlimpl" remote="dot" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_sn100x_halimpl" remote="dot" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_sn100x_hidlimpl" remote="dot" />
+
+  <!-- Vendor repos - QCOM -->
+  <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="dot" />
+  <project path="vendor/qcom/opensource/audio" name="android_vendor_qcom_opensource_audio" remote="dot" />
+  <project path="vendor/qcom/opensource/audio-hal/st-hal" name="android_vendor_qcom_opensource_audio-hal_st-hal" remote="dot" />
+  <project path="vendor/qcom/opensource/commonsys-intf/bluetooth" name="android_vendor_qcom_opensource_bluetooth-commonsys-intf" remote="dot" />
+  <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="dot" />
+  <project path="vendor/qcom/opensource/commonsys/bluetooth_ext" name="android_vendor_qcom_opensource_bluetooth_ext" remote="dot" />
+  <project path="vendor/qcom/opensource/commonsys/packages/apps/Bluetooth" name="android_vendor_qcom_opensource_packages_apps_Bluetooth" remote="dot" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="dot" />
+  <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="dot" />
+  <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="dot" />
+  <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="dot" />
+  <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="dot" />
+  <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="dot" />
+  <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="dot" />
+  <project path="vendor/qcom/opensource/libfmjni" name="android_vendor_qcom_opensource_libfmjni" remote="dot" />
+  <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="dot" />
+  <project path="vendor/qcom/opensource/thermal-engine" name="android_vendor_qcom_opensource_thermal-engine" remote="dot" />
+  <project path="vendor/qcom/opensource/usb" name="android_vendor_qcom_opensource_usb" remote="dot" />
+  <project path="vendor/qcom/opensource/vibrator" name="android_vendor_qcom_opensource_vibrator" remote="dot" />
+  <project path="vendor/qcom/opensource/wfd-commonsys" name="android_vendor_qcom_opensource_wfd-commonsys" remote="dot" />
+
+  <!-- Tools Repos -->
+  <project path="tools/metalava" name="android_tools_metalava" remote="dot" />
+
+</manifest>

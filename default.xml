@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch=".."
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
   <default revision="refs/tags/android-12.1.0_r1"
            remote="aosp"
@@ -1103,5 +1103,10 @@
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- dotOS Custom repos -->
+  <include name="snippets/dot.xml" />
+  <!-- unused AOSP repos -->
+  <include name="snippets/remove.xml" />
 
 </manifest>
