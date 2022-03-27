@@ -4,11 +4,11 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
-  <default revision="refs/tags/android-12.1.0_r1"
+  <default revision="refs/tags/android-12.1.0_r2"
            remote="aosp"
            sync-j="4" />
 
-  <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r1" />
+  <superproject name="platform/superproject" remote="aosp" revision="android-12.1.0_r2" />
   <contactinfo bugurl="go/repo-bug" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
@@ -1104,9 +1104,9 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
-  <!-- dotOS Custom repos -->
-  <include name="snippets/dot.xml" />
   <!-- unused AOSP repos -->
   <include name="snippets/remove.xml" />
+  <!-- dotOS Custom repos -->
+  <include name="snippets/dot.xml" />
 
 </manifest>
