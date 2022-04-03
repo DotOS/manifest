@@ -20,7 +20,7 @@
   <remote name="dot-gitlab"
           fetch="https://gitlab.com/dotos-official"
           review="https://review.droidontime.com/"
-          revision="refs/heads/dot12" />
+          revision="refs/heads/dot12.1" />
 
   <remote  name="dotOS-devices-gitlab"
            fetch="https://gitlab.com/dotos-devices"
@@ -29,6 +29,10 @@
   <remote name="dot-git"
           fetch="https://git.droidontime.com/android"
           revision="refs/heads/dot12" />
+
+  <remote name="pixel-gitlab-self-hosted"
+          fetch="https://gitlab.pixelexperience.org/android"
+          revision="twelve" />
 
   <project path="manifest" name="manifest" remote="dot" />
 
@@ -60,6 +64,7 @@
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="dot" />
 
   <!-- External repos -->
+  <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
   <project path="external/boringssl" name="android_external_boringssl" remote="dot" />
   <project path="external/cldr" name="android_external_cldr" remote="dot" />
   <project path="external/e2fsprogs" name="android_external_e2fsprogs" remote="dot" />
@@ -159,6 +164,8 @@
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="dot" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="dot" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dot" />
+  <project path="packages/apps/SystemUpdates" name="android_packages_apps_SystemUpdates" remote="dot" />
+  <project path="packages/apps/Customizations" name="android_packages_apps_Customizations" remote="dot" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="dot" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="dot" />
   <project path="packages/services/BuiltInPrintService" name="android_packages_services_BuiltInPrintService" remote="dot" />
@@ -187,7 +194,8 @@
   <project path="vendor/dot" name="android_vendor_dot" remote="dot" />
   <project path="vendor/pixel-framework" name="android_vendor_pixel-framework" remote="dot" />
   <project path="vendor/support" name="android_vendor_support" remote="dot" />
-  <project path="vendor/gms" name="android_vendor_gms" remote="dot-gitlab" />
+  <project path="vendor/custom-preference" name="android_vendor_custom-preference" remote="dot" />
+  <project path="vendor/gapps" name="android_vendor_gapps" remote="dot-gitlab" />
 
   <!-- Vendor repos - NXP -->
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_opensource_interfaces_nfc" remote="dot" />
