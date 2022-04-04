@@ -151,6 +151,9 @@
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
     <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
     <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
+    
+    <!-- add namespace for BT adv audio, as required for QTI BT stack -->
+    <linkfile src="os_pickup_qssi_bt.bp" dest="device/qcom/qssi/Android.bp" />
   </project>
   <project path="hardware/qcom-caf/msm8996/audio" name="android_hardware_qcom-caf_msm8996_audio" remote="dot" />
   <project path="hardware/qcom-caf/msm8996/display" name="android_hardware_qcom-caf_msm8996_display" remote="dot" />
