@@ -166,7 +166,10 @@
   <project path="hardware/qcom-caf/sm8350/media" name="android_hardware_qcom-caf_sm8350_media" remote="dot" />
 
   <!-- packages repos -->
+  <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="dot" />
+  <project path="packages/apps/FaceUnlockService" name="android_packages_apps_FaceUnlockService" remote="dot" />
   <project path="packages/apps/FMRadio" name="android_packages_apps_FMRadio" remote="dot" />
+  <project path="packages/apps/Nfc" name="android_packages_apps_Nfc" remote="dot" />
   <project path="packages/apps/SimpleDeviceConfig" name="android_packages_apps_SimpleDeviceConfig" remote="dot" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dot" />
   <project path="packages/apps/SystemUpdates" name="android_packages_apps_SystemUpdates" remote="dot" />
@@ -223,6 +226,7 @@
   <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="dot" />
   <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="dot" />
   <project path="vendor/qcom/opensource/data-ipa-cfg-mgr" name="android_vendor_qcom_opensource_data-ipa-cfg-mgr" remote="dot" />
+  <project path="vendor/qcom/opensource/display" name="android_vendor_qcom_opensource_display" remote="dot" />
   <project path="vendor/qcom/opensource/dataservices" name="android_vendor_qcom_opensource_dataservices" remote="dot" />
   <project path="vendor/qcom/opensource/fm-commonsys" name="android_vendor_qcom_opensource_fm-commonsys" remote="dot" />
   <project path="vendor/qcom/opensource/healthd-ext" name="android_vendor_qcom_opensource_healthd-ext" remote="dot" />
