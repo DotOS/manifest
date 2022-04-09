@@ -194,8 +194,10 @@
   <!-- System Repos -->
   <project path="system/bt" name="android_system_bt" groups="pdk" remote="dot" />
   <project path="system/core" name="android_system_core" remote="dot" />
+  <project path="system/media" name="android_system_media" remote="dot" />
   <project path="system/netd" name="android_system_netd" remote="dot" />
   <project path="system/qcom" name="android_system_qcom" remote="dot" />
+  <project path="system/security" name="android_system_security" remote="dot" />
   <project path="system/sepolicy" name="android_system_sepolicy" remote="dot" />
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="dot" />
   <project path="system/update_engine" name="android_system_update_engine" remote="dot" />
@@ -212,6 +214,7 @@
   <project path="vendor/gapps" name="android_vendor_gapps" remote="dot-gitlab" />
 
   <!-- Vendor repos - NXP -->
+  <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="dot" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_opensource_interfaces_nfc" remote="dot" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="dot" />
   <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="dot" />
@@ -220,6 +223,8 @@
   <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_pn5xx_hidlimpl" remote="dot" />
   <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_sn100x_halimpl" remote="dot" />
   <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_sn100x_hidlimpl" remote="dot" />
+  <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="dot" />
+  <project path="vendor/nxp/secure_element_extns" name="android_vendor_nxp_secure_element_extns" remote="dot" />
 
   <!-- Vendor repos - QCOM -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="dot" />
