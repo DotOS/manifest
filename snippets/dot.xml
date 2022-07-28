@@ -85,7 +85,6 @@
   <project path="external/connectivity" name="android_external_connectivity" remote="dot" />
   <project path="external/exfatprogs" name="android_external_exfatprogs" remote="dot" />
   <project path="external/json-c" name="android_external_json-c" remote="dot" />
-  <project path="external/libnfc-nxp" name="android_external_libnfc-nxp" remote="dot" />
   <project path="external/mksh" name="android_external_mksh" remote="dot" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="dot" />
   <project path="external/tinyxml" name="android_external_tinyxml" remote="dot" />
@@ -112,7 +111,6 @@
   <project path="hardware/google/pixel" name="android_hardware_google_pixel" remote="dot" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="dot" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="dot" />
-  <project path="hardware/nxp/nfc" name="android_hardware_nxp_nfc" remote="dot" />
   <project path="hardware/qcom/audio" name="android_hardware_qcom_audio" remote="dot" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="android_hardware_qcom_data_ipacfg-mgr" remote="dot" />
   <project path="hardware/qcom/camera" name="android_hardware_qcom_camera" remote="dot" />
@@ -215,17 +213,17 @@
   <project path="vendor/gapps" name="android_vendor_gapps" remote="dot-gitlab" />
 
   <!-- Vendor repos - NXP -->
-  <project path="vendor/nxp/nfc" name="android_vendor_nxp_nfc" remote="dot" />
-  <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_opensource_interfaces_nfc" remote="dot" />
-  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="dot" />
-  <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="dot" />
-  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="dot" />
-  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_pn5xx_halimpl" remote="dot" />
-  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_pn5xx_hidlimpl" remote="dot" />
-  <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_sn100x_halimpl" remote="dot" />
-  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="android_vendor_nxp_opensource_sn100x_hidlimpl" remote="dot" />
-  <project path="vendor/nxp/secure_element" name="android_vendor_nxp_secure_element" remote="dot" />
-  <project path="vendor/nxp/secure_element_extns" name="android_vendor_nxp_secure_element_extns" remote="dot" />
+  <project path="vendor/nxp/opensource/interfaces/nfc" name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" groups="qcom,qssi" remote="github" revision="lineage-19.1"/>
+  <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" groups="qcom,qssi" remote="github" revision="lineage-19.1"  />
+  <project path="vendor/nxp/opensource/commonsys/frameworks" name="LineageOS/android_vendor_nxp_opensource_frameworks" groups="qcom,qssi" remote="github" revision="lineage-19.1" />
+  <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" groups="qcom,qssi" remote="github" revision="lineage-19.1"  />
+  <project path="vendor/nxp/opensource/pn5xx/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" groups="qcom,sdm845" revision="lineage-19.1-pn5xx" remote="github" />
+  <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" groups="qcom,sdm845" revision="lineage-19.1-pn5xx" remote="github" />
+  <project path="vendor/nxp/opensource/sn100x/halimpl" name="LineageOS/android_vendor_nxp_opensource_halimpl" groups="qcom,lahaina" revision="lineage-19.1-sn100x" remote="github" />
+  <project path="vendor/nxp/opensource/sn100x/hidlimpl" name="LineageOS/android_vendor_nxp_opensource_hidlimpl" groups="qcom,lahaina" revision="lineage-19.1-sn100x" remote="github" />
+  <project path="vendor/nxp/nfc" name="LineageOS/android_vendor_nxp_nfc" groups="nxp" remote="github"  revision="lineage-19.1" />
+  <project path="vendor/nxp/secure_element" name="LineageOS/android_vendor_nxp_secure_element" groups="nxp" remote="github" revision="lineage-19.1" />
+  <project path="vendor/nxp/secure_element_extns" name="LineageOS/android_vendor_nxp_secure_element_extns" groups="nxp" remote="github" revision="lineage-19.1" />
 
   <!-- Vendor repos - QCOM -->
   <project path="vendor/codeaurora/telephony" name="android_vendor_codeaurora_telephony" remote="dot" />
