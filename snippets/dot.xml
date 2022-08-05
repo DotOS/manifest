@@ -178,6 +178,7 @@
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="dot" />
   <project path="packages/apps/SystemUpdates" name="android_packages_apps_SystemUpdates" remote="dot" />
   <project path="packages/apps/Customizations" name="android_packages_apps_Customizations" remote="dot" />
+  <project path="packages/apps/DotWallpapers" name="android_packages_apps_DotWallpapers" remote="dot" />
   <project path="packages/apps/RepainterServicePriv" name="android_packages_apps_RepainterServicePriv" remote="dot" />
   <project path="packages/providers/DownloadProvider" name="android_packages_providers_DownloadProvider" remote="dot" />
   <project path="packages/providers/MediaProvider" name="android_packages_providers_MediaProvider" remote="dot" />
