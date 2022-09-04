@@ -64,7 +64,7 @@
   <project path="device/qcom/sepolicy_vndr" name="android_device_qcom_sepolicy_vndr" remote="dot" />
 
   <!-- External repos -->
-  <project path="external/faceunlock" name="external_faceunlock" remote="pixel-gitlab-self-hosted" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="dot-gitlab" />
   <project path="external/boringssl" name="android_external_boringssl" remote="dot" />
   <project path="external/cldr" name="android_external_cldr" remote="dot" />
   <project path="external/colorkt" name="android_external_colorkt" remote="dot" />
