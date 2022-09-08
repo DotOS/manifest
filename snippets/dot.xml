@@ -203,6 +203,7 @@
   <project path="system/tools/dtbtool" name="android_system_tools_dtbtool" remote="dot" />
   <project path="system/update_engine" name="android_system_update_engine" remote="dot" />
   <project path="system/vold" name="android_system_vold" remote="dot" />
+  <project path="system/tools/mkbootimg" name="android_system_tools_mkbootimg" remote="dot" />
 
   <!-- tools repos -->
   <project path="tools/extract-utils" name="android_tools_extract-utils" remote="dot" />
