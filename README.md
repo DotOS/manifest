@@ -1,4 +1,4 @@
-# DotOS 6.x - Android 13
+# DotOS 7.0.x - Android 13
 <p align="center">
 <img src="https://raw.githubusercontent.com/DotOS/resources_drawables/master/dot11/dot_main-banner.png" > 
 </p>
